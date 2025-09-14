@@ -9,7 +9,7 @@ The objective of this project is to **clean messy real-world data**, remove inco
 
 ## Steps Performed:
 
-# 1. Data Cleaning
+### 1. Data Cleaning
 For both HBV and HIV datasets:
 - Read the raw datasets into Pandas DataFrames.  
 - Reset and managed **indexing**.  
@@ -18,10 +18,10 @@ For both HBV and HIV datasets:
 - Rounded integer values where required.  
 - Used **GroupBy** to aggregate annual deaths per **country and year** (solving the issue of duplicate entries).  
 
-# 2. Data Export
+### 2. Data Export
 - Saved the cleaned versions of both datasets into new CSV files.  
 
-# 3. Data Merging & Wrangling
+### 3. Data Merging & Wrangling
 - Re-imported the cleaned datasets.  
 - **Merged** the HIV and HBV datasets on the `Country/Region` and `Year` column.  
 - Split data into columns:  
@@ -32,7 +32,7 @@ For both HBV and HIV datasets:
 - Reset the index for consistency.  
 - Filled missing values (`NaN`) with zeros.  
 
-# 4. Final Output
+### 4. Final Output
 - Produced a **clean, merged dataset** with:  
   - `Country/Region`  
   - `Year`  
